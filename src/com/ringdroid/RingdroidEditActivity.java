@@ -1175,16 +1175,16 @@ public class RingdroidEditActivity extends Activity
         switch(mNewFileKind) {
         default:
         case FileSaveDialog.FILE_KIND_MUSIC:
-            parentdir = "/sdcard/media/audio/music";
+            parentdir = "/sdcard/Music";
             break;
         case FileSaveDialog.FILE_KIND_ALARM:
-            parentdir = "/sdcard/media/audio/alarms";
+            parentdir = "/sdcard/Alarms";
             break;
         case FileSaveDialog.FILE_KIND_NOTIFICATION:
-            parentdir = "/sdcard/media/audio/notifications";
+            parentdir = "/sdcard/Notifications";
             break;
         case FileSaveDialog.FILE_KIND_RINGTONE:
-            parentdir = "/sdcard/media/audio/ringtones";
+            parentdir = "/sdcard/Ringtones";
             break;
         }
 
